@@ -52,7 +52,7 @@ main{padding:28px 40px 80px;min-width:0}
 }
 
 /* home */
-.hero{position:relative;width:min(100%,calc((86vh - 40px)*0.85));aspect-ratio:1000/1180;margin:0 auto 0 0;overflow:hidden;background:#FAFAFB}
+.hero{position:relative;width:min(100%,calc((86vh - 40px)*0.89));aspect-ratio:1000/1120;margin:0 auto;overflow:hidden;background:#FAFAFB}
 .hero .ph,.hero .cut{position:absolute;left:0;bottom:0;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;pointer-events:none}
 .hero svg{position:absolute;inset:0;width:100%;height:100%}
 .hero svg text{font-family:var(--fd);font-weight:800;fill:#111;text-transform:uppercase}
@@ -210,9 +210,8 @@ function voidHTML(groups, id){
 function homeHTML(){
   return `<section class="hero" aria-label="Delfín van Peborgh">
     <img class="ph" src="img/portada/hf_20260531_182626_c4851336-2fa8-40fc-a3e8-4896e622671a.jpg" width="1400" height="1400" alt="" aria-hidden="true" fetchpriority="high">
-    <svg viewBox="0 0 1000 1180" aria-hidden="true">
-      <text x="500" y="262" text-anchor="middle" font-size="300" textLength="980" lengthAdjust="spacingAndGlyphs">DELFÍN</text>
-      <text x="500" y="392" text-anchor="middle" font-size="132" textLength="980" lengthAdjust="spacingAndGlyphs">VAN PEBORGH</text>
+    <svg viewBox="0 0 1000 1120" aria-hidden="true">
+      <text x="500" y="250" text-anchor="middle" font-size="300" textLength="930" lengthAdjust="spacingAndGlyphs">DELFÍN</text>
     </svg>
     <img class="cut" src="img/portada/cutout.webp" width="1400" height="1400" alt="Delfín van Peborgh, autorretrato panorámico">
   </section>
